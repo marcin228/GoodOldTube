@@ -1,0 +1,13 @@
+{
+	"name": "GoodOldTube",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Refinements for enhancing user experience on the homepage.",
+	"developer": "marcin228",
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*", "http://www.youtube.com/*", "https://youtube.com/*", "http://youtube.com/*"],
+			"js": ["GoodOldTube.js"]
+		}
+	]
+}
